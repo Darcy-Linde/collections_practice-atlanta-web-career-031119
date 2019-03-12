@@ -36,7 +36,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.map {|x| x + "s"}
+  array.map! {|x| x + "s"}
   array[1].chop!
   array
 end
