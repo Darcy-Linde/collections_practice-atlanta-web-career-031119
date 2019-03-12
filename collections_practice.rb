@@ -29,8 +29,9 @@ def find_a(array)
   array.delete_if {|word| !word.start_with?("a")}
 end
 
-def sum_array
-  
+def sum_array(array)
+  sum = 0 
+  array.each {|x| sum += x}
 end
 
 def add_s
