@@ -22,6 +22,7 @@ end
 
 def kesha_maker(array)
   array.map {|name| name[2] = "$"}
+  array
 end
 
 def find_a(array)
