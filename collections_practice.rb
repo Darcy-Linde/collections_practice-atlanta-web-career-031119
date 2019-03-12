@@ -26,7 +26,6 @@ end
 
 def find_a(array)
   array.delete_if {|word| !word.start_with?("a")}
-  array
 end
 
 def sum_array
