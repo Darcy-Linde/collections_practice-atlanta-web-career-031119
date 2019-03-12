@@ -25,7 +25,7 @@ def kesha_maker
 end
 
 def find_a(array)
-  
+  array.map {|word| start
 end
 
 def sum_array
